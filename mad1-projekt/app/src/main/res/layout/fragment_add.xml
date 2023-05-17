@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="350dp"
+    android:background="@color/addFragment"
+    tools:context=".fragments.AddProductFragment">
+
+    <ImageButton
+        android:id="@+id/backButtonAdd"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:src="@drawable/arrow_icon" />
+
+    <EditText
+        android:id="@+id/product"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/product_editTExt"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/submitButtonAdd"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/add_Button_plus"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

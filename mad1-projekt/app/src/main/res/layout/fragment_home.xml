@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/WelcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/welcome_text"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeRecyclerView"
+        android:layout_width="350dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/button_description_create"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

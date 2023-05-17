@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">G+L</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_Button">BACK</string>
+    <string name="product_editTExt">Type a product…</string>
+    <string name="add_Button_plus">+</string>
+    <string name="createList_picture">Take picture </string>
+    <string name="save_Button">SAVE</string>
+    <string name="description_text_create"> Select a name and picture:</string>
+    <string name="welcome_text">Welcome Back!</string>
+    <string name="button_description_create">Create a new list</string>
+    <string name="delete_button">DELETE</string>
+    <string name="image_from_gallery_button">Choose from gallery</string>
+</resources>
